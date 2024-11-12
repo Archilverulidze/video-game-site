@@ -1,0 +1,85 @@
+
+
+body{
+  background-image: url(https://media.istockphoto.com/id/1376339349/vector/vector-illustration-neon-future-game-pad-background.jpg?s=612x612&w=0&k=20&c=QeiVccr66hGsXkhafiyyk8l9spl6cb3YmBWDvKkcTFI=);
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+}
+
+h4{
+    color: white;
+    
+
+}
+.navbar {
+    padding: 10px 0;
+    margin-top: 10px;
+    
+}
+
+
+.navbar ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    justify-content: left;
+    position: fixed;
+    
+}
+
+.navbar ul li {
+    margin: 0 15px;
+}
+
+.navbar ul li a {
+    color: green;
+    text-decoration: none;
+    font-weight: bold;
+    padding: 8px 16px;
+    transition: background-color 0.3s, color 0.3s;
+    border-radius: 4px;
+    
+}
+
+.navbar ul li a:hover {
+    color: #e74c3c;
+}
+
+.games {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 20px 0;
+}
+
+.game {
+    background-color: green;
+    border: 1px solid green;
+    border-radius: 8px;
+    margin: 10px;
+    width: 200px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(18, 200, 39, 0.1);
+    
+
+}
+
+h2{
+    display: flex;
+    justify-content: center;
+    color: black;
+}
+
+
+footer{
+    display: flex;
+    justify-content: center;
+    
+}
+button{
+    background-color: green;
+    border-color: green;
+    font-size: 20px;
+}
+

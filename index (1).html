@@ -1,0 +1,235 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://kit.fontawesome.com/2ed4e74187.js" crossorigin="anonymous"></script>
+</head>
+<body>
+    <header>
+        <img class="logo" src="Безымянный.png" alt="GameZoneHub logo">
+    <h1>GameZoneHub.ge</h1>
+    
+</header>
+<nav class="navbar">
+    <ul>
+        <li><a href="#home">მთავარი </a></li>
+        <li><a href="#games">თამაშები</a></li>
+        <li><a href="#about">ჩვენს შესახებ</a></li>
+        <li><a href="index2.html">ჟანრები </a></li>
+    </ul>
+    <form class="search-form" action="#games" method="get">
+        <input type="text" placeholder="თამაშების ძიება..." name="search">
+        <button type="submit"><img src="https://media.istockphoto.com/id/1454227730/ru/%D0%B2%D0%B5%D0%BA%D1%82%D0%BE%D1%80%D0%BD%D0%B0%D1%8F/%D0%BF%D0%BE%D0%B8%D1%81%D0%BA-%D0%B7%D0%BD%D0%B0%D1%87%D0%BA%D0%B0-%D0%B8%D0%BB%D0%B8-%D1%81%D0%B8%D0%BC%D0%B2%D0%BE%D0%BB%D0%B0-%D0%BA%D0%BE%D0%BD%D1%86%D0%B5%D0%BF%D1%82%D1%83%D0%B0%D0%BB%D1%8C%D0%BD%D0%BE%D0%B9-%D0%BB%D1%83%D0%BF%D1%8B.jpg?s=612x612&w=0&k=20&c=9TkwRgFWAaX8wT_jVQTq2L03cdCW_8QfArlGJ8PIHlk=" width="20px"></button><br>
+    </form>
+</nav>
+</nav>
+<section class="games">
+    <div class="game">
+        <img src="https://shared.akamai.steamstatic.com/store_item_assets/steam/apps/42700/capsule_616x353.jpg?t=1654809667" height="225px" width="600px" alt="">
+        <h2>Call Of Duty<br> Black Ops</h2>
+        <p>თამაშის აღწერა...</p>
+        <span class="price">$4</span>
+        <button onclick="addToCart(4)">ყიდვა</button>
+    </div>
+    
+    <div class="game">
+        <img src="https://upload.wikimedia.org/wikipedia/en/4/44/Red_Dead_Redemption_II.jpg" height=""  alt="">
+        <h2>Red Dead Redemption2</h2>
+        <p>თამაშის აღწერა...</p>
+        <span class="price">$8</span>
+        <button onclick="addToCart(8)">ყიდვა</button>
+    </div>
+
+    <div class="game">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSI8q0Z6118B-lULakd-jHepJx-lgUKfgN34Q&s" height="" alt="">
+        <h2>Counter-Strike</h2>
+        <p>თამაშის აღწერა...</p>
+        <span class="price">$9</span>
+        <button onclick="addToCart(9)">ყიდვა</button>
+    </div>
+
+    <div class="game">
+        <img src="https://upload.wikimedia.org/wikipedia/en/thumb/f/fd/Resident_Evil_2_Remake.jpg/220px-Resident_Evil_2_Remake.jpg" height="225px" width="600px" alt="">
+        <h2>Resident Evil2</h2>
+        <p>თამაშის აღწერა...</p>
+        <span class="price">$8</span>
+        <button onclick="addToCart(20)">ყიდვა</button>
+    </div>
+
+    <div class="game">
+        <img src="https://upload.wikimedia.org/wikipedia/en/c/c1/Silent_Hill_2_remake_cover.jpg" height="225px" width="600px">
+        <h2>Silent Hill <br>2</h2>
+        <p>თამაშის აღწერა...</p>
+        <span class="price">$15</span>
+        <button onclick="addToCart(15)">ყიდვა</button>
+    </div>
+
+    <div class="game">
+        <img src="https://i.ytimg.com/vi/rPeiCBGDL5w/maxresdefault.jpg" height="225px" width="600px" alt="">
+        <h2>Efootball <br>2025</h2>
+        <p>თამაშის აღწერა...</p>
+       
+        <span class="price">$8</span>
+        <button onclick="addToCart( 8)">ყიდვა</button>
+    </div>
+
+    <div class="game">
+        <img src="https://www.metacritic.com/a/img/catalog/provider/6/12/6-1-587923-52.jpg" height="225px" width="600px" alt="">
+        <h2>Need for Speed</h2>
+        <p>თამაშის აღწერა...</p>
+        <span class="price">$8</span>
+        <button onclick="addToCart( 8)">ყიდვა</button>
+    </div>
+    <div class="game">
+        <img src="https://i.ytimg.com/vi/ZGXMNNjIRm0/hq720.jpg?sqp=-oaymwEhCK4FEIIDSFryq4qpAxMIARUAAAAAGAElAADIQj0AgKJD&rs=AOn4CLDTsCAAv0wh157KAC8FZ9DtZtecdQ" height="225" width="600px" alt="">
+        <h2>FIFA <br>2025</h2>
+        <p>თამაშის აღწერა...</p>
+        <span class="price">$8</span>
+        <button onclick="addToCart( 8)">ყიდვა</button>
+    </div>
+    <div class="game">
+        <img src="https://www.konami.com/products_master/eu_publish/mgsv_tde/eu/en/images/mgsvtdemain.jpg" height="225px" width="600px" alt="">
+        <h2>Metal Gear Solid</h2>
+        <p>თამაშის აღწერა...</p>
+        <span class="price">$8</span>
+        <button onclick="addToCart( 8)">ყიდვა</button>
+    </div>
+    <div class="game">
+        <img src="https://www.venturegames.com.pk/cdn/shop/files/ResidentEvil4remake.jpg?v=1706794037" alt="">
+        <h2>Resident Evil 4</h2>
+        <p>თამაშის აღწერა...</p>
+        <span class="price">$15</span>
+        <button onclick="addToCart( 15)">ყიდვა</button>
+    </div>
+    <div class="game">
+        <img src="https://blog.playstation.com/uploads/2024/08/0690af829deaac887e0f1d9bdc50c8216e53e5c9.jpeg" alt="">
+        <h2>Call of Duty: Black Ops 6</h2>
+        <p>თამაშის აღწერა...</p>
+        <span class="price">$8</span>
+        <button onclick="addToCart( 8)">ყიდვა</button>
+    </div>
+    <div class="game">
+        <img src="https://upload.wikimedia.org/wikipedia/en/4/46/Video_Game_Cover_-_The_Last_of_Us.jpg" alt="">
+        <h2>The Last of Us</h2>
+        <p>თამაშის აღწერა...</p>
+        <span class="price">$8</span>
+        <button onclick="addToCart( 8)">ყიდვა</button>
+    </div>
+    <div class="game">
+        <img src="https://image.api.playstation.com/vulcan/ap/rnd/202312/0117/315718bce7eed62e3cf3fb02d61b81ff1782d6b6cf850fa4.png" alt="">
+        <h2>The Last of Us Part II</h2>
+        <p>თამაშის აღწერა...</p>
+        <span class="price">$8</span>
+        <button onclick="addToCart( 8)">ყიდვა</button>
+    </div>
+    <div class="game">
+        <img src="https://img.redbull.com/images/c_fill,g_auto,w_450,h_600/q_auto:low,f_auto/redbullcom/2017/07/18/2dd60382-b4b5-41ff-8ff4-bf364f301fa2/pubg-pro-players.jpg.jpg" alt="">
+        <h2>PUBG: Battlegrounds </h2>
+        <p>თამაშის აღწერა...</p>
+        <span class="price">$8</span>
+        <button onclick="addToCart( 8)">ყიდვა</button>
+    </div>
+    <div class="game">
+        <img src="https://upload.wikimedia.org/wikipedia/ru/7/7e/PlayerUnknown%27s_Battlegrounds_Mobile.jpg" alt="">
+        <h2>PUBG MOBILE</h2>
+        <p>თამაშის აღწერა...</p>
+        <span class="price"></span>
+        <button onclick="addToCart( )">Free</button>
+    </div>
+    <div class="game">
+        <img src="https://image.api.playstation.com/vulcan/ap/rnd/202208/1718/phwiQjbJddEg979YucUoP3Vr.png" alt="">
+        <h2>Assassin’s Creed Mirage</h2>
+        <p>თამაშის აღწერა...</p>
+        <span class="price">$8</span>
+        <button onclick="addToCart( 8)">ყიდვა</button>
+    </div>
+    <div class="game">
+        <img src="https://upload.wikimedia.org/wikipedia/en/f/f0/Battlefield_V_standard_edition_box_art.jpg" alt="">
+        <h2>Battlefield <br>V<br><br></h2>
+        <p>თამაშის აღწერა...</p>
+        <span class="price">$8</span>
+        <button onclick="addToCart( 8)">ყიდვა</button>
+    </div>
+    <div class="game">
+        <img src="https://store-images.s-microsoft.com/image/apps.62010.68596255437297164.99e6fb73-cd5e-440f-90c2-d8d2eb40a69d.00b8641a-a04c-4386-b406-bfff9ef1ccc2" alt="">
+        <h2>Battlefield<br> 1<br><br></h2>
+        <p>თამაშის აღწერა...</p>
+        <span class="price">$8</span>
+        <button onclick="addToCart( 8)">ყიდვა</button>
+    </div>
+    <div class="game">
+        <img src="https://upload.wikimedia.org/wikipedia/vi/b/b6/Ghost_of_Tsushima.jpg" alt="">
+        <h2>Ghost of Tsushima<br><br></h2>
+        <p>თამაშის აღწერა...</p>
+        <span class="price">$8</span>
+        <button onclick="addToCart( 8)">ყიდვა</button>
+    </div>
+    <div class="game">
+        <img src="https://m.media-amazon.com/images/M/MV5BN2I0N2Y3MWUtNjJiNy00NjRjLWE4ZTctOTQ2YWVhM2VhMTM4XkEyXkFqcGc@._V1_FMjpg_UX1000_.jpg" alt="">
+        <h2>Baldur’s Gate III<br><br> </h2>
+        <p>თამაშის აღწერა...</p>
+        <span class="price">$8</span>
+        <button onclick="addToCart( 8)">ყიდვა</button>
+    </div>
+    <div class="game">
+        <img src="https://i.scdn.co/image/ab67616d0000b273992ab5cdd68be3d1b5404283" alt="">
+        <h2>Horizon Forbidden West</h2>
+        <p>თამაშის აღწერა...</p>
+        <span class="price">$8</span>
+        <button onclick="addToCart( 8)">ყიდვა</button>
+    </div>
+    <div class="game">
+        <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT_XQsM_WGUL-035TTyn-JiufWIVngGFEFdgcvcugPz3O0Pvd9MNkR6Uo3AfK7FTm3Qonc&usqp=CAU" alt="">
+        <h2>Forza Horizon <br>5</h2>
+        <p>თამაშის აღწერა...</p>
+        <span class="price">$8</span>
+        <button onclick="addToCart( 8)">ყიდვა</button>
+    </div>
+    <div class="game">
+        <img src="https://juegosdigitalesguatemala.com/files/images/productos/1718399285-mortal-kombat-1-premium-edition-0.webp" alt="">
+        <h2>Mortal Kombat<br> 1</h2>
+        <p>თამაშის აღწერა...</p>
+        <span class="price">$8</span>
+        <button onclick="addToCart( 8)">ყიდვა</button>
+    </div>
+    <div class="game">
+        <img src="https://howlongtobeat.com/games/Dark_souls_3_cover_art.jpg" alt="">
+        <h2>Dark <br>Souls <br> III</h2>
+        <p>თამაშის აღწერა...</p>
+        <span class="price">$8</span>
+        <button onclick="addToCart( 8)">ყიდვა</button>
+    </div>
+    
+
+
+</section>
+
+<footer>
+    <div class="footer-content">
+        <div class="about">
+            <h5>ჩვენ გთავაზობთ ვიდეო თამაშების ფართო არჩევანს ყველა პლატფორმისთვის.</h5>
+        </div>
+        <div class="contact-info">
+            <h3>კონტაქტი</h3>
+            <p>Email: gamezonehub@gmail.com</p>
+            <p>Телефон: +995 (599) 456-789</p>
+            <p> მისამართი: ქ. ბათუმი, ვაჟა ფშაველას №15</p>
+        </div>
+        <div class="social-icons">
+            <h4>გამოიწერეთ ჩვენი ოფიციალური გვერი სოც. ქსელებში</h4>
+            <a href="https://facebook.com" target="_blank" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="https://twitter.com" target="_blank" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="https://instagram.com" target="_blank" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="https://web.telegram.org/k/" target="_blank" aria-label="Telegram"><i class="fab fa-telegram"></i></a>
+        </div>
+    </div>
+    <p class="footer-copy">&copy; 2024 GameHubZone. All rights reserved.</p>
+</footer>
+
+<script src="script.js"></script>
+    
+</body>
+</html>
